@@ -1224,7 +1224,7 @@ s
 				border-radius: 50%;
 				margin: 0 auto 6rpx auto;
 
-				/deep/image,
+				::v-deepimage,
 				.easy-loadimage,
 				image,
 				uni-image {

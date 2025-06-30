@@ -170,7 +170,7 @@
 </script>
 
 <style lang="scss" scoped>
-	/deep/.dialog_nav {
+	::v-deep.dialog_nav {
 		z-index: 9999;
 	}
 
@@ -327,7 +327,7 @@
 
 	.count_down {}
 
-	/deep/ .is_day {
+	::v-deep .is_day {
 		font-size: 24rpx;
 		font-weight: 500;
 		color: #1B1B1B;

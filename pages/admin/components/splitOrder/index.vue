@@ -130,7 +130,7 @@
 </script>
 
 <style lang="scss">
-	/deep/checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deepcheckbox .uni-checkbox-input.uni-checkbox-input-checked {
 		border: 1px solid #007aff !important;
 		background-color: #007aff !important;
 		color: #fff !important;

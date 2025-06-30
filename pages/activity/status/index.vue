@@ -896,7 +896,7 @@
 		color: #fc4141;
 	}
 
-	.group-con .wrapper .title .name /deep/.time .styleAll {
+	.group-con .wrapper .title .name ::v-deep.time .styleAll {
 		text-align: center;
 		border-radius: 8rpx;
 		font-size: 24rpx;
@@ -1231,7 +1231,7 @@
 				border-radius: 50%;
 				margin: 0 auto 6rpx auto;
 
-				/deep/image,
+				::v-deepimage,
 				.easy-loadimage,
 				image,
 				uni-image {

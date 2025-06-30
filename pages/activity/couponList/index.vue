@@ -220,7 +220,7 @@
 </script>
 
 <style lang="scss" scoped>
-	/deep/.sellOut {
+	::v-deep.sellOut {
 		width: 96rpx;
 		height: 32rpx;
 		line-height: 28rpx;

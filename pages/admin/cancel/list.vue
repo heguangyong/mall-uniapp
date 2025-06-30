@@ -172,7 +172,7 @@
 	.infor-text{
 		color: #2A7EFB ;
 	}
-	/deep/ .uni-popup__wrapper {
+	::v-deep .uni-popup__wrapper {
 		width: 600rpx;
 		height: 310rpx;
 		background: #FFFFFF;

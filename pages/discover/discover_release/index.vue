@@ -509,7 +509,7 @@
 	}
 
 	.topic {
-		/deep/.tui-popup-class {
+		::v-deep.tui-popup-class {
 			height: 95% !important;
 		}
 	}
@@ -532,7 +532,7 @@
 	.crop_btn {
 		line-height: 90rpx;
 		height: 90rpx;
-		height: calc(90rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(90rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(90rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 
@@ -596,9 +596,9 @@
 		.photo_count {}
 	}
 
-	/deep/.input_photo .easy-loadimage,
-	/deep/.input_photo uni-image,
-	/deep/.input_photo image {
+	::v-deep.input_photo .easy-loadimage,
+	::v-deep.input_photo uni-image,
+	::v-deep.input_photo image {
 		width: 200rpx;
 		height: 200rpx;
 		border-radius: 12rpx !important;
@@ -667,7 +667,7 @@
 		}
 	}
 
-	/deep/.loading-img {
+	::v-deep.loading-img {
 		width: 200rpx;
 		height: 200rpx;
 		border-radius: 12rpx;

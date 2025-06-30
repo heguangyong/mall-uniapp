@@ -471,7 +471,7 @@
 	}
 
 	.height-add {
-		height: calc(120rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(120rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(120rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 
@@ -863,9 +863,9 @@
 		background-color: #fff;
 		padding: 0 30upx;
 		border-top: 1px solid #eee;
-		height: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
-		padding-bottom: calc(0rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		padding-bottom: calc(0rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		padding-bottom: calc(0rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 
@@ -1198,7 +1198,7 @@
 		}
 	}
 
-	/deep/ .uni-popup__wrapper {
+	::v-deep .uni-popup__wrapper {
 		width: 600rpx;
 		height: 310rpx;
 		background: #FFFFFF;

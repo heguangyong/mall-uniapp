@@ -121,13 +121,13 @@
 </style>
 <style scoped lang="scss">
 	.street-box{
-		/deep/.mer_name {
+		::v-deep.mer_name {
 			color: #fff;
 		}
 	}
 	.pad-30{
 		padding: 30rpx 30rpx 0 30rpx;
-		/deep/.street-pad20{
+		::v-deep.street-pad20{
 			padding: 0;
 		}
 	}

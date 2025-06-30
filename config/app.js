@@ -8,7 +8,7 @@
 // | Author: CRMEB Team <admin@crmeb.com>
 // +----------------------------------------------------------------------
 //移动端商城API 网络接口修改此配置，小程序域名要求https 例如：https://api.front.merchant.java.crmeb.net
-let domain = 'http://192.168.1.119:20810'
+let domain = 'http://127.0.0.1:20810'
 
 module.exports = {
 	// 请求域名 格式： https://您的域名

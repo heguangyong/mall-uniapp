@@ -6,7 +6,7 @@
 		width: 420rpx !important;
 	}
 	.activity-box{
-		padding-bottom: calc(0rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		padding-bottom: calc(0rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		padding-bottom: calc(0rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 	.activity_header {
@@ -24,7 +24,7 @@
 		/* #endif */
 	}
 	.list-box{
-		padding-bottom: calc(0rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		padding-bottom: calc(0rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		padding-bottom: calc(0rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 		position: relative;
 		background-color: #f5f5f5;

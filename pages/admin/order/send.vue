@@ -509,13 +509,13 @@
 </script>
 
 <style scoped lang="scss">
-	/deep/.uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deep.uni-checkbox-input.uni-checkbox-input-checked {
 		border: 1px solid #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #FFF !important;
 	}
 
-	/deep/.wx-checkbox-input.wx-checkbox-input-checked {
+	::v-deep.wx-checkbox-input.wx-checkbox-input-checked {
 		border: 1px solid #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #FFF !important;
@@ -760,7 +760,7 @@
 		white-space: normal;
 	}
 
-	/deep/.split-switch .switch::after {
+	::v-deep.split-switch .switch::after {
 		top: 4rpx;
 	}
 

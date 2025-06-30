@@ -119,7 +119,7 @@
 		height: 40rpx;
 	}
 
-	/deep/.swiper-item {
+	::v-deep.swiper-item {
 		height: 100rpx !important;
 	}
 

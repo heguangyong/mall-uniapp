@@ -460,7 +460,7 @@ import {refundOrderList,refundOrderMark,refundStatusNum,refundOrderAudit,refundR
 	}
 
 	.height-add {
-		height: calc(120rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(120rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(120rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 
@@ -666,9 +666,9 @@ import {refundOrderList,refundOrderMark,refundStatusNum,refundOrderAudit,refundR
 		background-color: #fff;
 		padding: 0 30upx;
 		border-top: 1px solid #eee;
-		height: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
-		padding-bottom: calc(0rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		padding-bottom: calc(0rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		padding-bottom: calc(0rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 

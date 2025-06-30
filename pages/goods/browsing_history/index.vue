@@ -178,8 +178,8 @@
 				margin-right: 0;
 			}
 
-			/deep/image,
-			/deep/.easy-loadimage,
+			::v-deepimage,
+			::v-deep.easy-loadimage,
 			uni-image {
 				width: 217rpx;
 				height: 217rpx;
@@ -194,7 +194,7 @@
 		}
 	}
 
-	/deep/.loadfail-img,
+	::v-deep.loadfail-img,
 	.easy-img {
 		width: 217rpx;
 		height: 217rpx;

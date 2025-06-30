@@ -309,7 +309,7 @@
 		color: #AAAAAA;
 	}
 
-	/deep/.list .texts {
+	::v-deep.list .texts {
 		background-color: #fff;
 		border-radius: 0 0 14rpx 14rpx;
 	}
@@ -346,7 +346,7 @@
 		}
 	}
 
-	/deep/uni-checkbox .uni-checkbox-wrapper {
+	::v-deepuni-checkbox .uni-checkbox-wrapper {
 		vertical-align: inherit !important;
 	}
 
@@ -979,7 +979,7 @@
 		}
 	}
 
-	.recommend /deep/ .fw-500 {
+	.recommend ::v-deep .fw-500 {
 		font-weight: bold;
 	}
 </style>

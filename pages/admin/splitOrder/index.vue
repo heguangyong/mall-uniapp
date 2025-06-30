@@ -126,13 +126,13 @@
 </script>
 
 <style lang="scss">
-	/deep/checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deepcheckbox .uni-checkbox-input.uni-checkbox-input-checked {
 		border: 1px solid #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #fff !important;
 	}
 
-	/deep/checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	::v-deepcheckbox .wx-checkbox-input.wx-checkbox-input-checked {
 		border: 1px solid #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #fff !important;

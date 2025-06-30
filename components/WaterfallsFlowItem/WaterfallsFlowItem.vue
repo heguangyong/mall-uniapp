@@ -145,8 +145,8 @@
 
 			.pictrue {
 
-				/deep/image,
-				/deep/.easy-loadimage,
+				::v-deepimage,
+				::v-deep.easy-loadimage,
 				uni-image {
 					width: 100%;
 					height: 100%;
@@ -236,7 +236,7 @@
 		border-radius: 16rpx 16rpx 0 0;
 		overflow: hidden;
 
-		/deep/.easy-loadimage,
+		::v-deep.easy-loadimage,
 		uni-image,
 		image {
 			height: 330rpx;

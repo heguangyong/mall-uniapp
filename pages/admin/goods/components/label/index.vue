@@ -10,7 +10,7 @@
       </view>
       <view :style="{height:(getHeight.barTop+getHeight.barHeight)+'px'}"></view>
       <view class="list" v-if="isStore"
-            :style="'height: calc(100% - '+(getHeight.barTop+getHeight.barHeight*2+150)+'rpx - constant(safe-area-inset-bottom));height: calc(100% - '+(getHeight.barTop+getHeight.barHeight*2+150)+'rpx - env(safe-area-inset-bottom))'">
+            :style="'height: calc(100% - '+(getHeight.barTop + getHeight.barHeight*2+150)+'rpx - constant(safe-area-inset-bottom));height: calc(100% - '+(getHeight.barTop + getHeight.barHeight*2+150)+'rpx - env(safe-area-inset-bottom))'">
         <!-- #endif -->
         <!-- #ifndef MP -->
         <view class="header">筛选</view>

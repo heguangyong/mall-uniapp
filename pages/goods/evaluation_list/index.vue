@@ -265,7 +265,7 @@
 		height: 120rpx;
 	}
 
-	.my-order .list .item .item-info .pictrue image , /deep/.easy-loadimage,uni-image {
+	.my-order .list .item .item-info .pictrue image , ::v-deep.easy-loadimage,uni-image {
 		width: 100%;
 		height: 100%;
 		border-radius: 14rpx;
@@ -344,10 +344,10 @@
 		width: 100%;
 		height: 100%;
 	}
-	/deep/.tui-red{
+	::v-deep.tui-red{
 		@include main_bg_color(theme);
 	}
-	/deep/.tui-red-outline{
+	::v-deep.tui-red-outline{
 		@include main_color(theme);
 		@include coupons_border_color(theme);
 	}

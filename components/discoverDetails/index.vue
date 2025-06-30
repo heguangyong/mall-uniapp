@@ -550,7 +550,7 @@
 	}
 
 	.release_bar_detail {
-		height: calc(90rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(90rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(90rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 		padding-bottom: constant(safe-area-inset-bottom); ///兼容 IOS<11.2/
 		padding-bottom: env(safe-area-inset-bottom); ///兼容 IOS>11.2/
@@ -590,7 +590,7 @@
 	}
 
 
-	/deep/.uni-swiper-dots-horizontal {
+	::v-deep.uni-swiper-dots-horizontal {
 		bottom: 40rpx !important;
 	}
 
@@ -682,8 +682,8 @@
 	}
 
 	.tab-conts {
-		// /deep/.container {
-		// 	padding-bottom: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		// ::v-deep.container {
+		// 	padding-bottom: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		// 	padding-bottom: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 		// }
 	}
@@ -804,8 +804,8 @@
 			position: relative;
 			border-radius: 10px 10px 10px 10px;
 
-			/deep/image,
-			/deep/.easy-loadimage,
+			::v-deepimage,
+			::v-deep.easy-loadimage,
 			uni-image {
 				width: 702rpx;
 				border-radius: 10px 10px 10px 10px;

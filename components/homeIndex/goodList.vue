@@ -525,8 +525,8 @@
 		grid-template-rows: auto;
 		width: 100%;
 
-		/deep/.origin-img,
-		/deep/.easy-loadimage {
+		::v-deep.origin-img,
+		::v-deep.easy-loadimage {
 			border-bottom-left-radius: 0 !important;
 			border-bottom-right-radius: 0 !important;
 		}

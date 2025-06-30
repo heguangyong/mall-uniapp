@@ -666,7 +666,7 @@
 
 	.uni-calendar--fixed {
 		position: fixed;
-		bottom: calc(var(--window-bottom));
+		bottom: calc(var(--window - bottom));
 		left: 0;
 		right: 0;
 		transition-property: transform;

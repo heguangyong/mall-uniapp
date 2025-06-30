@@ -280,7 +280,7 @@
 	}
 </script>
 <style scoped lang="scss">
-	/deep/.origin-img{
+	::v-deep.origin-img{
 		border-radius: 50%;
 	}
 	.productSort {
@@ -401,7 +401,7 @@
 	.productSort .conter .list .item .picture,
 	.productSort .conter uni-image,
 	.productSort .conter .list .item image,
-	/deep/.easy-loadimage{
+	::v-deep.easy-loadimage{
 		width: 110rpx;
 		height: 110rpx;
 		border-radius: 50%;

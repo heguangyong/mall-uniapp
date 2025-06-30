@@ -170,16 +170,16 @@
 </script>
 
 <style scoped lang="scss">
-	/deep/.container {
+	::v-deep.container {
 		padding-bottom: 0 !important;
 	}
 
 	.commen_details {
-		/deep/.container {
+		::v-deep.container {
 			height: auto !important;
 		}
 
-		/deep/.main_content {
+		::v-deep.main_content {
 			padding: 30rpx 0 !important;
 		}
 	}
@@ -192,13 +192,13 @@
 	}
 
 	.discover-details {
-		padding-bottom: calc(80rpx+ constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
+		padding-bottom: calc(80rpx + constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
 		padding-bottom: calc(80rpx + env(safe-area-inset-bottom));
 		background-color: #fff;
 	}
 
 	.details {
-		padding-bottom: calc(40rpx+ constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
+		padding-bottom: calc(40rpx + constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
 		padding-bottom: calc(40rpx + env(safe-area-inset-bottom));
 	}
 

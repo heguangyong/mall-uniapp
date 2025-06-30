@@ -193,7 +193,7 @@
 	}
 
 	.couponBox {
-		/deep/.empty-box {
+		::v-deep.empty-box {
 			padding-top: 200rpx;
 			margin-top: 0 !important;
 		}

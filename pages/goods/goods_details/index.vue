@@ -2421,16 +2421,16 @@
 
 	.superior {
 
-		/deep/.name,
-		/deep/.icon-jiantou {
+		::v-deep.name,
+		::v-deep.icon-jiantou {
 			color: #333 !important;
 		}
 
-		/deep/.store {
+		::v-deep.store {
 			padding: 0 !important;
 		}
 
-		/deep/image,
+		::v-deepimage,
 		.easy-loadimage,
 		image,
 		uni-image {
@@ -2449,7 +2449,7 @@
 		width: 100%;
 		background-color: #fff;
 		padding-bottom: 22rpx;
-		padding-bottom: calc(22rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		padding-bottom: calc(22rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		padding-bottom: calc(22rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 
 		.title {
@@ -2482,7 +2482,7 @@
 					border-radius: 50%;
 					margin-right: 30rpx;
 
-					/deep/image,
+					::v-deepimage,
 					.easy-loadimage,
 					image,
 					uni-image {
@@ -2527,7 +2527,7 @@
 		transform: translate3d(0, 0, 0);
 	}
 
-	/deep/ .tui-drawer-container_bottom {
+	::v-deep .tui-drawer-container_bottom {
 		border-radius: 16rpx 16rpx 0 0;
 	}
 
@@ -2902,7 +2902,7 @@
 				border-radius: 50%;
 				margin: 0 auto 6rpx auto;
 
-				/deep/image,
+				::v-deepimage,
 				.easy-loadimage,
 				image,
 				uni-image {
@@ -2947,7 +2947,7 @@
 		z-index: 277;
 		border-top: 1rpx solid #f0f0f0;
 		height: 100rpx;
-		height: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 	}
 
@@ -3113,7 +3113,7 @@
 						border-radius: 6rpx;
 						overflow: hidden;
 
-						/deep/image,
+						::v-deepimage,
 						.easy-loadimage,
 						image,
 						uni-image {

@@ -1139,8 +1139,8 @@
 		margin-top: 15rpx;
 		background-color: #fff;
 		padding: 0 30rpx;
-		margin-bottom: calc(constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
-		margin-bottom: calc(env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
+		margin-bottom: calc(constant(safe-area-inset - bottom)); ///兼容 IOS<11.2/
+		margin-bottom: calc(env(safe-area-inset - bottom)); ///兼容 IOS>11.2/
 	}
 
 	.order-submission .moneyList .item {
@@ -1168,7 +1168,7 @@
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		height: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 		z-index: 999;
 	}
@@ -1189,13 +1189,13 @@
 		opacity: 0
 	}
 
-	/deep/ checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deep checkbox .uni-checkbox-input.uni-checkbox-input-checked {
 		@include main_bg_color(theme);
 		border: none !important;
 		color: #fff !important
 	}
 
-	/deep/ checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	::v-deep checkbox .wx-checkbox-input.wx-checkbox-input-checked {
 		@include main_bg_color(theme);
 		border: none !important;
 		color: #fff !important;
@@ -1203,24 +1203,24 @@
 	}
 
 	// 切换
-	/deep/.uni-date-x--border {
+	::v-deep.uni-date-x--border {
 		border: 0;
 	}
 
-	/deep/.uni-icons {
+	::v-deep.uni-icons {
 		font-size: 0 !important;
 	}
 
-	/deep/.uni-date-x {
+	::v-deep.uni-date-x {
 		color: #999;
 		font-size: 15px;
 	}
 
-	/deep/.uni-date__x-input {
+	::v-deep.uni-date__x-input {
 		font-size: 15px;
 	}
 
-	/deep/uni-checkbox[disabled] .uni-checkbox-input {
+	::v-deepuni-checkbox[disabled] .uni-checkbox-input {
 		background-color: #eee;
 	}
 
@@ -1324,7 +1324,7 @@
 	.font-color {
 		font-weight: 500 !important;
 	}
-	/deep/ .uni-popup__wrapper {
+	::v-deep .uni-popup__wrapper {
 		background: #FFFFFF;
 		border-radius: 32rpx;
 	}

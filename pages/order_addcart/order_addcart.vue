@@ -1365,7 +1365,7 @@
 
 	.footerTop {
 		bottom: 98rpx !important;
-		bottom: calc(98rpx+ constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
+		bottom: calc(98rpx + constant(safe-area-inset-bottom)) !important; ///兼容 IOS<11.2/
 		bottom: calc(98rpx + env(safe-area-inset-bottom)) !important; ///兼容 IOS>11.2/
 	}
 
@@ -1877,13 +1877,13 @@
 		height: 96rpx;
 	}
 
-	/deep/ checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deep checkbox .uni-checkbox-input.uni-checkbox-input-checked {
 		@include main_bg_color(theme);
 		border: none !important;
 		color: #fff !important
 	}
 
-	/deep/ checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	::v-deep checkbox .wx-checkbox-input.wx-checkbox-input-checked {
 		@include main_bg_color(theme);
 		border: none !important;
 		color: #fff !important;

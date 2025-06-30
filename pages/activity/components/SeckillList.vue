@@ -175,7 +175,7 @@
 		box-sizing: border-box;
 
 		.picture,
-		/deep/.easy-loadimage image {
+		::v-deep.easy-loadimage image {
 			display: block;
 			margin-right: 16rpx;
 		}

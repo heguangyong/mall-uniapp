@@ -206,9 +206,9 @@
 			justify-content: flex-end;
 			padding: 0 24rpx;
 			background: #fff;
-			height: calc(100rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+			height: calc(100rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 			height: calc(100rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
-			padding-bottom: calc(0rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+			padding-bottom: calc(0rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 			padding-bottom: calc(0rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 			.update{
 				background: #2A7EFB;

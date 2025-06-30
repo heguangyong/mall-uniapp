@@ -4,7 +4,7 @@ body,
 html {
 	height: unset;
 }
-/deep/uni-video, /deep/video, /deep/.wscnph, /deep/img {
+::v-deepuni-video, ::v-deepvideo, ::v-deep.wscnph, ::v-deepimg {
 	max-width: 100% !important;
 	height: auto;
 }
@@ -47,7 +47,7 @@ view{
 .uni-p-b-98 {
 	height: 100rpx;
 	/* 兼容 IOS<11.2 */
-	height: calc(100rpx+ constant(safe-area-inset-bottom));
+	height: calc(100rpx + constant(safe-area-inset-bottom));
 	/* 兼容 IOS>11.2 */
 	height: calc(100rpx + env(safe-area-inset-bottom));
 }

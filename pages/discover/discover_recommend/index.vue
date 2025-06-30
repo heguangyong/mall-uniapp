@@ -197,7 +197,7 @@
 
 	.discover_recommend {
 		background-color: #fff;
-		/deep/.no-border {
+		::v-deep.no-border {
 			bottom: 40rpx;
 		}
 	}

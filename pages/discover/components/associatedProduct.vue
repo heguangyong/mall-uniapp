@@ -368,7 +368,7 @@
 			height: 100%;
 			margin: 40rpx 0 80rpx;
 
-			/deep/.uni-scroll-view-content {
+			::v-deep.uni-scroll-view-content {
 				height: auto;
 			}
 

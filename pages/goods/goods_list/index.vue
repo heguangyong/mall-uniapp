@@ -586,7 +586,7 @@
 	}
 
 	.merBox {
-		/deep/.tui-drawer-container {
+		::v-deep.tui-drawer-container {
 			width: 635rpx;
 		}
 	}
@@ -832,7 +832,7 @@
 		// width: 100%;
 	}
 
-	.productList .list .item .pictrue /deep/.easy-loadimage {
+	.productList .list .item .pictrue ::v-deep.easy-loadimage {
 		width: 240rpx;
 		height: 240rpx;
 		border-radius: 14rpx;

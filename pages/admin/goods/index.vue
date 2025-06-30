@@ -816,23 +816,23 @@
 </script>
 
 <style lang="scss" scoped>
-	/deep/checkbox .uni-checkbox-input.uni-checkbox-input-checked {
+	::v-deepcheckbox .uni-checkbox-input.uni-checkbox-input-checked {
 		border-color: #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #fff !important;
 	}
 
-	/deep/checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	::v-deepcheckbox .wx-checkbox-input.wx-checkbox-input-checked {
 		border: 1px solid #2A7EFB !important;
 		background-color: #2A7EFB !important;
 		color: #fff !important;
 	}
 
-	/deep/uni-checkbox .uni-checkbox-input {
+	::v-deepuni-checkbox .uni-checkbox-input {
 		margin-top: -4rpx;
 	}
 
-	/deep/checkbox:not([disabled]) .uni-checkbox-input:hover {
+	::v-deepcheckbox:not([disabled]) .uni-checkbox-input:hover {
 		border-color: #d1d1d1 !important;
 	}
 
@@ -952,12 +952,12 @@
 			padding-bottom: 20rpx;
 			padding: 0 20rpx 20rpx 20rpx;
 
-			/deep/uni-checkbox .uni-checkbox-input {
+			::v-deepuni-checkbox .uni-checkbox-input {
 				background-color: #f5f5f5;
 				margin: 0 20rpx 20rpx 0;
 			}
 
-			/deep/wx-checkbox .wx-checkbox-input {
+			::v-deepwx-checkbox .wx-checkbox-input {
 				background-color: #f5f5f5;
 				margin: 0 20rpx 20rpx 0;
 			}
@@ -1121,7 +1121,7 @@
 		}
 	}
 
-	/deep/ .uni-popup__wrapper {
+	::v-deep .uni-popup__wrapper {
 		width: 600rpx;
 		height: 310rpx;
 		background: #FFFFFF;

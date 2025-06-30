@@ -452,7 +452,7 @@
 	}
 
 	.couponBox {
-		/deep/.empty-box {
+		::v-deep.empty-box {
 			padding-top: 200rpx;
 			margin-top: 0 !important;
 		}
@@ -464,15 +464,15 @@
 		height: calc(100vh - var(--window-top)); //calc()是动态计算函数
 
 
-		/deep/.store {
+		::v-deep.store {
 			padding: 0 24rpx 24rpx 24rpx;
 		}
 
-		/deep/.noCheck {
+		::v-deep.noCheck {
 			color: #666;
 		}
 
-		/deep/.pictrue {
+		::v-deep.pictrue {
 			width: 74rpx;
 			height: 74rpx;
 			border-radius: 6rpx;
@@ -784,12 +784,12 @@
 	}
 
 	.productList .list .item .proPic,
-	/deep/.easy-loadimage,
+	::v-deep.easy-loadimage,
 	uni-image {
 		position: relative;
 	}
 
-	.productList .list .item .proPic.on /deep/.easy-loadimage,
+	.productList .list .item .proPic.on ::v-deep.easy-loadimage,
 	uni-image uni-image {
 		width: 240rpx;
 		height: 240rpx;

@@ -108,7 +108,7 @@
 </script>
 
 <style lang="scss" scoped>
-	/deep/.price-box{
+	::v-deep.price-box{
 		color: #fff !important;
 	}
 	@mixin full {

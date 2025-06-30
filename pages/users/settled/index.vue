@@ -490,7 +490,7 @@
 </script>
 
 <style scoped lang="scss">
-	/deep/.uni-scroll-view{
+	::v-deep.uni-scroll-view{
 		overflow: hidden auto !important;
 	}
 	.select_code {
@@ -793,7 +793,7 @@
 		color: #b2b2b2 !important;
 	}
 
-	checkbox /deep/.uni-checkbox-input.uni-checkbox-input-checked {
+	checkbox ::v-deep.uni-checkbox-input.uni-checkbox-input-checked {
 		@include coupons_border_color(theme);
 		@include main_color(theme);
 	}
@@ -838,12 +838,12 @@
 			height: 740rpx !important;
 			overflow-y: scroll;
 
-			/deep/ p {
+			::v-deep p {
 				font-size: 13px;
 				line-height: 22px;
 			}
 
-			/deep/ img {
+			::v-deep img {
 				max-width: 100%;
 			}
 		}
@@ -920,14 +920,14 @@
 		border-radius: 60px;
 	}
 
-	/deep/ uni-checkbox .uni-checkbox-input {
+	::v-deep uni-checkbox .uni-checkbox-input {
 		width: 15px;
 		height: 15px;
 		margin-right: 10rpx;
 		position: relative;
 	}
 
-	/deep/ uni-checkbox .uni-checkbox-input.uni-checkbox-input-checked:before {
+	::v-deep uni-checkbox .uni-checkbox-input.uni-checkbox-input-checked:before {
 		font-size: 14px;
 	}
 
@@ -950,13 +950,13 @@
 
 	// #endif
 	.setAgCount {
-		/deep/ table {
+		::v-deep table {
 			border: 1rpx solid #DDD;
 			border-bottom: none;
 			border-right: none;
 		}
 
-		/deep/ td,
+		::v-deep td,
 		th {
 			padding: 5rpx 10rpx;
 			border-bottom: 1rpx solid #DDD;
@@ -970,7 +970,7 @@
 		margin-right: 4rpx;
 	}
 
-	/deep/.uni-input-input {
+	::v-deep.uni-input-input {
 		width: 85%;
 		overflow: hidden;
 		text-overflow: ellipsis;

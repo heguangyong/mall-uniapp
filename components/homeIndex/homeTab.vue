@@ -472,7 +472,7 @@
 </script>
 
 <style lang="scss" scoped>
-	/deep/.x-money {
+	::v-deep.x-money {
 		color: inherit !important;
 	}
 
@@ -637,8 +637,8 @@
 		width: 100%;
 		padding: 0 20rpx;
 
-		/deep/.origin-img,
-		/deep/.easy-loadimage {
+		::v-deep.origin-img,
+		::v-deep.easy-loadimage {
 			border-bottom-left-radius: 0 !important;
 			border-bottom-right-radius: 0 !important;
 		}

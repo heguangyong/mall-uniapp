@@ -247,7 +247,7 @@
 
 			// 圆形指示点
 			&.circular {
-				/deep/.uni-swiper-dot {
+				::v-deep.uni-swiper-dot {
 					width: 10rpx;
 					height: 10rpx;
 				}
@@ -255,7 +255,7 @@
 
 			// 方形指示点
 			&.square {
-				/deep/.uni-swiper-dot {
+				::v-deep.uni-swiper-dot {
 					width: 20rpx;
 					height: 5rpx;
 					border-radius: 3rpx;
@@ -263,22 +263,22 @@
 			}
 
 			&.nodoc {
-				/deep/.uni-swiper-dot {
+				::v-deep.uni-swiper-dot {
 					display: none;
 				}
 			}
 		}
 	}
 
-	/deep/.dot0 .uni-swiper-dots-horizontal {
+	::v-deep.dot0 .uni-swiper-dots-horizontal {
 		left: 10%;
 	}
 
-	/deep/.dot1 .uni-swiper-dots-horizontal {
+	::v-deep.dot1 .uni-swiper-dots-horizontal {
 		left: 50%;
 	}
 
-	/deep/.dot2 .uni-swiper-dots-horizontal {
+	::v-deep.dot2 .uni-swiper-dots-horizontal {
 		left: 90%;
 	}
 

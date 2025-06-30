@@ -858,12 +858,12 @@
 			height: 900rpx;
 			overflow-y: scroll;
 
-			/deep/ p {
+			::v-deep p {
 				font-size: 13px;
 				line-height: 22px;
 			}
 
-			/deep/ img {
+			::v-deep img {
 				max-width: 100%;
 			}
 		}

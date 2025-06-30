@@ -187,7 +187,7 @@
 		}
 	}
 
-	/deep/.uni-radio-input-checked {
+	::v-deep.uni-radio-input-checked {
 		@include main_bg_color(theme);
 	}
 

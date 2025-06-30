@@ -1417,8 +1417,8 @@
 			margin-right: 30rpx;
 		}
 
-		/deep/uni-swiper,
-		/deep/swiper {
+		::v-deepuni-swiper,
+		::v-deepswiper {
 			display: block;
 			width: 500rpx !important;
 			height: 136rpx !important;

@@ -92,7 +92,7 @@
 		align-items: center;
 		justify-content: space-around;
 		width: 100%;
-		height: calc(98rpx+ constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
+		height: calc(98rpx + constant(safe-area-inset-bottom)); ///兼容 IOS<11.2/
 		height: calc(98rpx + env(safe-area-inset-bottom)); ///兼容 IOS>11.2/
 		box-sizing: border-box;
 		border-top: solid 1rpx #F3F3F3;

@@ -544,7 +544,7 @@
 				height: 310rpx;
 
 				&.scalex {
-					/deep/.uni-swiper-slide-frame {
+					::v-deep.uni-swiper-slide-frame {
 						transform: translate(0, 0) !important;
 					}
 				}
@@ -555,7 +555,7 @@
 				transition: all 0.6s ease;
 			}
 
-			/deep/ swiper-item.active {
+			::v-deep swiper-item.active {
 				image {
 					transform: scale(1);
 				}
@@ -600,8 +600,8 @@
 		color: #000 !important;
 		transition: background-color .5s ease;
 
-		/deep/.name,
-		/deep/.icon-jiantou {
+		::v-deep.name,
+		::v-deep.icon-jiantou {
 			@include main_color(theme);
 		}
 		.mp-header{
